@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Muhamad Jaenudin</title>
+  <style>
+  	
+    /* FONT */
+    body {
+      font-family: serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0d0d0d, #1f1f1f, #2c3e50);
+      color: #ecf0f1;
+    }
+    /* HEADER */
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    /* Tambahkan di CSS */
+header h1 {
+  font-size: 64px;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Tambahin efek halus pas hover */
+.button-link {
+  transition: background 0.4s, transform 0.3s;
+}
+.button-link:hover {
+  background: linear-gradient(45deg, #3498db, #78c9f7);
+  transform: translateY(-3px);
+}
+
+/* Footer */
+<footer>
+  &copy; 2025 Muhamad Jaenudin. All rights reserved.
+</footer>
+}
+      }
+    /* PROFILE SECTION */
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #f1f1f1;
+      margin: 10px 30px 10px 10px;
+    }
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .profile-info h2 {
+      margin: 0;
+      font-size: 36px;
+      color: #f8f8f8;
+    }
+    .profile-info p {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #bdc3c7;
+    }
+    .profile-info .buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    /* GALLERY SECTION */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 60px auto;
+    }
+    .gallery-item {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      text-align: center;
+      transition: transform 0.3s;
+      overflow: hidden;
+    }
+    .gallery-item p {
+      font-size: 18px;
+      color: #f1f1f1;
+      margin-bottom: 10px;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.4s;
+      cursor: pointer;
+    }
+    .gallery-item img:hover {
+      transform: scale(1.1);
+    }
+    /* BUTTON */
+    .button-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(45deg, #2980b9, #6dd5fa);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background 0.4s;
+    }
+    .button-link:hover {
+      background: linear-gradient(45deg, #3498db, #78c9f7);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to Portfolio</h1>
+</header>
+
+<section class="profile">
+  <img src="mzhen21.jpg" alt="Profil Muhamad Jaenudin">
+  <div class="profile-info">
+    <h2>Muhamad Jaenudin</h2>
+    <p>Bogor, 02 Desember 2000</p>
+    <p>Hobi: Photography and Videography</p>
+    <div class="buttons">
+      <a href="https://www.instagram.com/m_zhen21" class="button-link">Instagram</a>
+      <a href="https://www.tiktok.com/@m_zhen21" class="button-link">Tiktok</a>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="gallery-item">
+    <p>Project 1</p>
+    <img src="mzhen22.jpg" alt="Foto 1">
+    <a href="halaman1.html" class="button-link">Lihat Detail</a>
+  </div>
+  <div class="gallery-item">
+    <p>Project 2</p>
+    <img src="mzhen23.jpg" alt="Foto 2">
+    <a href="halaman2.html" class="button-link">Lihat Detail</a>
+  </div>
+  <div class="gallery-item">
+    <p>Project 3</p>
+    <img src="mzhen24.jpg" alt="Foto 3">
+    <a href="halaman3.html" class="button-link">Lihat Detail</a>
+  </div>
+  <div class="gallery-item">
+    <p>Project 4</p>
+    <img src="mzhen25.jpg" alt="Foto 4">
+    <a href="halaman4.html" class="button-link">Lihat Detail</a>
+  </div>
+</section>
+
+</body>
+</html>
